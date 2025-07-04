@@ -30,7 +30,7 @@ function Header() {
         {[
           { name: 'Sobre a AMA', to: 'sobre' },
           { name: 'Projetos', to: 'projetos' },
-          { name: 'Impacto na Sociedade', to: 'midias' },
+          { name: 'Impacto na Sociedade', to: 'impacto' },
           { name: 'Nosso Espaço', to: 'espaco' },
         ].map((item, index) => (
           <Link
