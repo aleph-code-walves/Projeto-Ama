@@ -27,7 +27,7 @@ function Home() {
           <Projetos />
         </div>
 
-        <div id="midias">
+        <div id="impacto">
           <Depoimentos />
         </div>
 

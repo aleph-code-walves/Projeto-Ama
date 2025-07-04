@@ -9,7 +9,7 @@ function Header() {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <header className="font-gilroy w-full fixed top-0 left-0 z-50 bg-gradient-to-r from-blue-900 to-purple-300 text-white shadow-lg transition-all duration-500">
+    <header className="w-full fixed top-0 left-0 z-50 bg-gradient-to-r from-blue-900 to-purple-300 text-white shadow-lg transition-all duration-500">
     <div className="max-w-7xl mx-auto flex justify-between items-center px-8 py-4">
       {/* Logo com scroll até o topo */}
       <Link
