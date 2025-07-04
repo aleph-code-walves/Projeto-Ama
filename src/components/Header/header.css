@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: Gilroy;
+  src: url('./src/assets/fonts/Gilroy-ExtraBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@theme{
+  --font-gilroy: Gilroy;
+}

@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./Gilroy-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .gilroy {
+    font-family: 'Gilroy', sans-serif;
+  }
+
+  @font-face {
+    font-family: 'Gilroy-Light';
+    src: url('./Gilroy-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .gilroy-light {
+    font-family: 'Gilroy-Light', sans-serif;
+  }
