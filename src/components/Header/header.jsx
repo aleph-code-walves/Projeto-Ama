@@ -19,7 +19,7 @@ function Header() {
         className="flex items-center gap-3 cursor-pointer"
       >
         <img
-          src="../img/logoPrimeiraVF.png"
+          src="../img/logo.png"
           alt="Logo AMA"
           className="h-12 md:h-14 object-contain max-w-[160px]"
         />
