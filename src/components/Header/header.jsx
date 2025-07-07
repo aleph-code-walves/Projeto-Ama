@@ -16,7 +16,7 @@ function Header() {
         to="topo"
         smooth={true}
         duration={500}
-        className="flex items-center gap-3 cursor-pointer"
+        className="cursor-pointer flex items-center gap-3 cursor-pointer"
       >
         <img
           src="../img/LogoAma.png"
