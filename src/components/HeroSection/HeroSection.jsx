@@ -23,7 +23,7 @@ function HeroSection() {
 
       {/* Conteúdo */}
       <div className="relative z-10 text-white max-w-5xl text-center px-4">
-      <div className="mb-6 flex justify-center">
+      <div className="mb-2 flex justify-center">
         <img
           src="/img/LogoAma_Branca.png"
           alt="Logo AMA"
