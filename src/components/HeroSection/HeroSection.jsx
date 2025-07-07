@@ -21,7 +21,7 @@ function HeroSection() {
           Uma Entidade Filantrópica sem fins lucrativos, fundada em 15 de junho de 2016. Nossa diretoria é composta exclusivamente por pais e mães de pessoas com autismo.
         </p>
       {/* Seta animada */}
-        <a href="sobre" className="inline-block animate-bounce text-white">
+        <a href="#sobre" className="inline-block animate-bounce text-white">
           <FaChevronDown size={32} />
         </a>
       </div>
