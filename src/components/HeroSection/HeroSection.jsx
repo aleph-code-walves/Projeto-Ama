@@ -23,13 +23,7 @@ function HeroSection() {
 
       {/* Conteúdo */}
       <div className="relative z-10 text-white max-w-5xl text-center px-4">
-      <div className="mb-2 flex justify-center">
-        <img
-          src="/img/LogoAma_Branca.png"
-          alt="Logo AMA"
-          className="h-80 md:h-84 object-contain"
-        />
-      </div>
+ 
         <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-4">
           Transformando vidas com amor, cuidado e inclusão desde 2016.
         </h1>
