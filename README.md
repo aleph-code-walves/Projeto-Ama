@@ -7,6 +7,8 @@ Link para o projeto hospedado:
 
 Apresentação se encontra no arquivo: Apresentação Projeto Ama.pptx
 
+O relatório se encontra no arquivo: Relatório.pdf
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
