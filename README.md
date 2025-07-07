@@ -2,6 +2,7 @@
 
 Repositório do site institucional da **AMA Navegantes**, desenvolvido com **React.js + Vite**, utilizando **Tailwind CSS** para os estilos. O site tem como objetivo promover inclusão, apoio e visibilidade ao trabalho da associação.
 
+Link para o projeto hospedado: projeto-ama-ten.vercel.app
 ---
 
 ## 🚀 Tecnologias Utilizadas
@@ -31,6 +32,5 @@ git clone https://github.com/aleph-code-walves/Projeto-Ama.git
 cd projeto
 ## baixar as bibliotecas conforme a tabela
 cd npm run dev
-
 
 
