@@ -23,7 +23,7 @@ function HeroSection() {
       {/* Seta animada */}
       <a
           href="#sobre"
-          className="inline-flex items-center gap-2 px-6 py-3 bg-white/90 text-blue-800 font-semibold rounded-full shadow-lg hover:bg-white hover:scale-105 transition-all duration-300"
+          className="inline-flex items-center gap-2 px-6 py-3 bg-white/90 text-blue-800 font-semibold rounded-full shadow-lg hover:bg-white hover:scale-105 transition-all duration-3000"
         >
           Conhecer mais sobre a AMA
           <FaChevronDown className="animate-bounce" />      </a>
