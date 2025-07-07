@@ -31,6 +31,9 @@ O projeto utiliza as seguintes bibliotecas:
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/aleph-code-walves/Projeto-Ama/tree/main)
 cd projeto
 cd npm run dev
+
+
+
