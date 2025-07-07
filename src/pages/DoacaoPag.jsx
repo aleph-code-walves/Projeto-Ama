@@ -45,7 +45,7 @@ export default function DoarPix() {
         {/* Botão de voltar */}
         <button
           onClick={() => navigate("/")}
-          className="cursor-pointer mt-4 px-6 py-2 text-sm bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"
+          className="cursor-pointer mt-4 px-6 py-2 text-sm bg-blue-900 text-white rounded-full hover:bg-blue-700 transition"
         >
           Voltar para o início
         </button>
