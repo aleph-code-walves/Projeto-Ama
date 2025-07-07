@@ -25,7 +25,7 @@ export default function Doacao() {
         <motion.button
           whileHover={{ scale: 1.05 }}
           onClick={() => navigate("/doar")}
-          className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-full shadow-md hover:brightness-110 transition"
+          className="cursor-pointer px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-full shadow-md hover:brightness-110 transition"
         >
           Quero Contribuir 💫
         </motion.button>
