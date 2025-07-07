@@ -30,7 +30,7 @@ function HeroSection() {
           className="h-80 md:h-84 object-contain"
         />
       </div>
-        <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
+        <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-4">
           Transformando vidas com amor, cuidado e inclusão desde 2016.
         </h1>
         <p className="text-lg lg:text-xl mb-10 max-w-3xl mx-auto">
