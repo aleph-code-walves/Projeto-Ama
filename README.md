@@ -5,9 +5,7 @@ Repositório do site institucional da **AMA Navegantes**, desenvolvido com **Rea
 Link para o projeto hospedado: 
 ## ## [projeto-ama-ten.vercel.app](https://projeto-ama-ten.vercel.app)
 
-Apresentação se encontra no arquivo: Apresentação Projeto Ama.pptx
-
-O relatório se encontra no arquivo: Relatório.pdf
+Toda documentação desenvolvida durante o semestre se encontra na pasta: AMA Navegantes - Documentação
 
 ---
 
