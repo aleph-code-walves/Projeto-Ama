@@ -10,9 +10,6 @@ O projeto utiliza as seguintes bibliotecas:
 
 | Biblioteca | Descrição | Instalação |
 |------------|-----------|------------|
-| [React](https://reactjs.org/) | Biblioteca principal para construção da interface | `npm install react` |
-| [React DOM](https://reactjs.org/docs/react-dom.html) | Renderiza os elementos React na DOM | `npm install react-dom` |
-| [Vite](https://vitejs.dev/) | Ferramenta de build moderna e rápida para React | (instalado com o projeto Vite) |
 | [Tailwind CSS](https://tailwindcss.com/) | Framework CSS utilitário para estilização rápida | `npm install tailwindcss` |
 | [@tailwindcss/vite](https://www.npmjs.com/package/@tailwindcss/vite) | Integração do Tailwind com Vite | `npm install @tailwindcss/vite` |
 | [React Router DOM](https://reactrouter.com/) | Gerenciamento de rotas para SPA | `npm install react-router-dom` |
@@ -24,15 +21,15 @@ O projeto utiliza as seguintes bibliotecas:
 | [React Icons](https://react-icons.github.io/react-icons/) | Coleção de ícones SVG para React | `npm install react-icons` |
 | [QRCode.react](https://github.com/zpao/qrcode.react) | Geração de QR Codes com React | `npm install qrcode.react` |
 
----
+--- IMPORTANTE: baixar as depedências na pasta do projeto
 
 ## 📦 Instalação
-
 ### 1. Clone o repositório
 
 ```bash
 git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/aleph-code-walves/Projeto-Ama/tree/main)
 cd projeto
+## baixar as bibliotecas conforme a tabela
 cd npm run dev
 
 
