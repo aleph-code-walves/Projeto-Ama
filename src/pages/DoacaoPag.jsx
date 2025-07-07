@@ -12,7 +12,6 @@ export default function DoarPix() {
       className="min-h-screen bg-cover bg-center bg-no-repeat py-16 px-6 flex flex-col items-center justify-center"
       style={{ backgroundImage: 'url("/img/bg-doacao.jpg")' }} // Substitua com seu caminho
     >
-      {/* Caixa com conteúdo */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -25,8 +24,6 @@ export default function DoarPix() {
         <p className="text-gray-700 text-lg mb-6">
           Sua doação por PIX nos ajuda a continuar acolhendo, cuidando e oferecendo oportunidades reais para quem convive com o autismo.
         </p>
-
-        {/* QR Code + chave */}
         <div className="flex flex-col items-center mb-6">
           <QRCodeCanvas
             value={`00020126580014BR.GOV.BCB.PIX0136${chavePix}5204000053039865802BR5921Instituição Exemplo6009São Paulo62070503***6304ABCD`}
@@ -41,16 +38,12 @@ export default function DoarPix() {
             {chavePix}
           </div>
         </div>
-
-        {/* Botão de voltar */}
         <button
           onClick={() => navigate("/")}
           className="cursor-pointer mt-4 px-6 py-2 text-sm bg-blue-900 text-white rounded-full hover:bg-blue-700 transition"
         >
           Voltar para o início
         </button>
-
-        {/* Logo da AMA */}
         <div className="mt-10 flex justify-center">
           <img
             src="/img/LogoAma.png"
