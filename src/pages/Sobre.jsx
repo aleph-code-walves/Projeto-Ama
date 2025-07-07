@@ -53,7 +53,6 @@ const SobreAma = () => {
     id="sobre"
 >
 
-      {/* Cabeçalho centralizado */}
       <div className="text-center max-w-6xl mx-auto mb-10">
         <h1 className="text-6xl md:text-5xl font-extrabold text-blue-900 mb-4">
           Sobre a <span className="underline decoration-sky-500">AMA</span>
@@ -65,9 +64,8 @@ const SobreAma = () => {
         </p>
       </div>
 
-      {/* Conteúdo em colunas */}
+
       <div className="grid md:grid-cols-2 gap-50 items-start max-w-6xl mx-auto mt-13">
-        {/* Serviços */}
         <div>
           <h2 className="text-3xl font-bold text-blue-900 mb-4">Serviços oferecidos pela AMA:</h2>
           <ul className="font-bold space-y-2 text-gray-800 text-lg">
@@ -79,7 +77,6 @@ const SobreAma = () => {
         </ul>
         </div>
 
-        {/* Destaques */}
         <div className="flex flex-col gap-5">
           <h2 className="text-3xl font-bold text-blue-900 mb-2">Destaques:</h2>
           <div className="gilroy-light bg-blue-100 text-blue-800 px-4 py-3 rounded-lg text-lg shadow-sm">

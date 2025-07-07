@@ -8,7 +8,7 @@ export default function Doacao() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#e5e9ff] to-[#d2ccff] py-16 px-6 flex flex-col items-center justify-center">
-      {/* Texto inspirador */}
+      
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -30,7 +30,7 @@ export default function Doacao() {
           Quero Contribuir 💫
         </motion.button>
 
-        {/* Espaço reservado para a logo */}
+      
         <div className="mt-10 flex justify-center">
           <img
             src="/img/LogoAma.png" // ajuste o caminho se necessário
@@ -40,7 +40,7 @@ export default function Doacao() {
         </div>
       </motion.div>
 
-      {/* Redes sociais */}
+      
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}

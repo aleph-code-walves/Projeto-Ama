@@ -63,7 +63,7 @@ export default function Depoimentos() {
         ))}
       </div>
 
-      {/* Texto com fundo branco e sombra */}
+      
 <div className="max-w-4xl mx-auto bg-white bg-opacity-90 rounded-xl shadow-md p-6 text-center mb-10">
   <h3 className="text-2xl md:text-3xl font-bold text-blue-900 mb-3">9 anos de história</h3>
   <p className="text-gray-800 text-base md:text-lg leading-relaxed">
@@ -75,7 +75,7 @@ export default function Depoimentos() {
   </p>
 </div>
 
-{/* Vídeo responsivo */}
+
 <div className="max-w-4xl mx-auto aspect-video rounded-xl overflow-hidden shadow-xl bg-black">
   <video controls className="w-full h-full object-cover">
     <source src="/videos/Video Institucional.mp4" type="video/mp4" />

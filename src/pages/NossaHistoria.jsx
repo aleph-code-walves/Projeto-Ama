@@ -35,7 +35,6 @@ export default function NossaHistoria() {
             </p>
           </div>
 
-          {/* Slider */}
           <div className="w-full md:w-1/2 p-4 flex items-center justify-center">
             <div className="w-full max-w-md rounded-xl overflow-hidden shadow-md">
               <Slider {...settings}>

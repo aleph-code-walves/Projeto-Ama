@@ -33,7 +33,6 @@ export default function Projetos() {
     className="min-h-screen p-8 bg-cover bg-center"
     style={{ backgroundImage: "url('/img/capaTeste_.jpg')" }} // ajuste o caminho da imagem
   >
-      {/* Título */}
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-5xl font-extrabold text-blue-900 mb-4">
           Nossos Projetos e Dia a dia💖
@@ -43,7 +42,6 @@ export default function Projetos() {
         </p>
       </div>
 
-      {/* Seção Surf sem limites */}
       <div className="max-w-6xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden flex flex-col md:flex-row mb-20">
         {/* Vídeo */}
         <div className="md:w-2/3 w-full bg-black flex items-center justify-center h-[360px] md:h-[500px] overflow-hidden">
@@ -56,8 +54,6 @@ export default function Projetos() {
             className="transform rotate-[270deg] h-[700px] w-auto object-cover"
           />
         </div>
-
-        {/* Texto + Slide */}
         <div className="md:w-1/3 w-full p-6 flex flex-col justify-center">
           <h3 className="text-3xl font-bold text-blue-800 mb-4">Surf sem limites</h3>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
@@ -65,7 +61,6 @@ export default function Projetos() {
             Uma jornada de superação, confiança e conexão com a natureza.
           </p>
 
-          {/* Slide interno */}
           <Swiper
             slidesPerView={1}
             pagination={{ clickable: true }}
@@ -102,7 +97,6 @@ export default function Projetos() {
         </div>
       </div>
 
-      {/* Texto acima do slide geral */}
       <div className="max-w-3xl mx-auto text-center my-5 px-2">
         <h3 className="text-2xl font-bold text-blue-900 mb-1">Conheça nossos momentos especiais 📸</h3>
         <p className="text-gray-700 text-base">
@@ -110,7 +104,6 @@ export default function Projetos() {
         </p>
       </div>
 
-      {/* Slide Geral (mantido como estava) */}
       <div className="flex justify-center">
         
         <Swiper

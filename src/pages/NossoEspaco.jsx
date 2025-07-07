@@ -16,7 +16,6 @@ const NossaSede = () => {
   return (
     <section className="bg-gradient-to-b from-white via-purple-50 to-white px-6 md:px-20 py-20 text-gray-800">
       
-      {/* Título */}
       <div className="text-center max-w-3xl mx-auto mb-12">
         <h1 className="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4">Nosso Espaço</h1>
         <p className="text-base md:text-lg text-gray-700 leading-relaxed">
@@ -25,7 +24,6 @@ const NossaSede = () => {
         </p>
       </div>
 
-      {/* Texto + imagem */}
       <div className="bg-white/90 rounded-xl shadow-lg p-8 text-center max-w-4xl mx-auto mb-12 grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto mb-30">
         <div>
           <h2 className="text-xl md:text-2xl font-bold text-blue-900 mb-4">
@@ -39,7 +37,6 @@ const NossaSede = () => {
           </p>
         </div>
 
-        {/* Slide automático */}
         <div className="w-full">
           <Swiper
             modules={[Autoplay]}
@@ -61,7 +58,6 @@ const NossaSede = () => {
         </div>
       </div>
 
-      {/* Mapa */}
       <div className="max-w-6xl mx-auto">
         <h2 className="text-2xl font-extrabold text-blue-900 mb-6 text-center">Onde estamos</h2>
         <div className="rounded-xl overflow-hidden shadow-xl border-2 border-white">
