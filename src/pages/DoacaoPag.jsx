@@ -53,7 +53,7 @@ export default function DoarPix() {
         {/* Logo da AMA */}
         <div className="mt-10 flex justify-center">
           <img
-            src="/img/logoPrimeiraVF.png"
+            src="/img/LogoAma.png"
             alt="Logo AMA"
             className="h-20 md:h-24 object-contain"
           />
