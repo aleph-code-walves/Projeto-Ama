@@ -27,7 +27,7 @@ function HeroSection() {
         <img
           src="/img/LogoAma_Branca.png"
           alt="Logo AMA"
-          className="h-20 md:h-24 object-contain"
+          className="h-80 md:h-84 object-contain"
         />
       </div>
         <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
