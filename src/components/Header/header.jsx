@@ -52,7 +52,7 @@ function Header() {
           smooth={true}
           offset={-100}
           duration={500}
-          className="ml-6 bg-gradient-to-r from-purple-600 to-blue-600 text-white px-5 py-2 rounded-full shadow-md hover:scale-105 transition-transform duration-300"
+          className="cursor-pointer ml-6 bg-gradient-to-r from-purple-600 to-blue-600 text-white px-5 py-2 rounded-full shadow-md hover:scale-105 transition-transform duration-300"
         >
           Doar
         </Link>
