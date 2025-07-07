@@ -21,7 +21,7 @@ function Header() {
         <img
           src="../img/LogoAma.png"
           alt="Logo AMA"
-          className="h-16 md:h-20 object-contain max-w-[200px]"
+          className="h-12 md:h-14 object-contain max-w-[160px]"
         />
       </Link>
   
