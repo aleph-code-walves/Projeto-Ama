@@ -6,15 +6,42 @@ import { GiSoundWaves } from "react-icons/gi";
 import { GiHealing } from "react-icons/gi";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { FaHandsHelping } from "react-icons/fa";
+import { MdPsychology } from "react-icons/md";
 
 const servicos = [
-  { nome: "Consultas médicas", icon: <FaStethoscope className="text-blue-600 text-xl mr-2" /> },
-  { nome: "Atendimento psicológico", icon: <FaBrain className="text-purple-600 text-xl mr-2" /> },
-  { nome: "Fonoaudiologia", icon: <GiSoundWaves className="text-yellow-600 text-xl mr-2" /> },
-  { nome: "Fisioterapia", icon: <GiHealing className="text-green-600 text-xl mr-2" /> },
-  { nome: "Pedagogia", icon: <FaChalkboardTeacher className="text-orange-600 text-xl mr-2" /> },
-  { nome: "Assistência social", icon: <FaHandsHelping className="text-red-600 text-xl mr-2" /> },
+  {
+    nome: "Neurologia",
+    icon: <FaBrain className="text-purple-700 text-xl mr-2" />,
+    destaque: true,
+  },
+  {
+    nome: "Clínico Geral",
+    icon: <FaStethoscope className="text-blue-700 text-xl mr-2" />,
+    destaque: true,
+  },
+  {
+    nome: "Psicologia",
+    icon: <MdPsychology className="text-pink-600 text-xl mr-2" />,
+    destaque: true,
+  },
+  {
+    nome: "Fonoaudiologia",
+    icon: <GiSoundWaves className="text-yellow-600 text-xl mr-2" />,
+  },
+  {
+    nome: "Fisioterapia",
+    icon: <GiHealing className="text-green-600 text-xl mr-2" />,
+  },
+  {
+    nome: "Pedagogia",
+    icon: <FaChalkboardTeacher className="text-orange-600 text-xl mr-2" />,
+  },
+  {
+    nome: "Assistência Social",
+    icon: <FaHandsHelping className="text-red-600 text-xl mr-2" />,
+  },
 ];
+
 
 const SobreAma = () => {
   return (
@@ -43,7 +70,7 @@ const SobreAma = () => {
         {/* Serviços */}
         <div>
           <h2 className="text-3xl font-bold text-blue-900 mb-4">Serviços oferecidos pela AMA:</h2>
-          <ul className="gilroy-light space-y-2 text-gray-800 text-lg">
+          <ul className="font-bold space-y-2 text-gray-800 text-lg">
           {servicos.map((item, index) => (
             <li key={index} className="flex items-center">
               {item.icon} {item.nome}

@@ -6,6 +6,7 @@ import Doacao from './Doacao';
 import Depoimentos from './Depoimentos';
 import Projetos from './Projetos';
 import NossoEspaco from './NossoEspaco';
+import NossaHistoria from './NossaHistoria';
 import './style/home.css';
 import { Element } from 'react-scroll';
 
@@ -21,6 +22,10 @@ function Home() {
 
         <Element name="sobre">
           <Sobre />
+        </Element>
+
+        <Element name="nossahistoria">
+          <NossaHistoria />
         </Element>
 
         <div id="projetos">

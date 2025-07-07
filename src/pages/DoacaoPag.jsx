@@ -4,7 +4,7 @@ import { QRCodeCanvas } from "qrcode.react";
 import { useNavigate } from "react-router-dom";
 
 export default function DoarPix() {
-  const chavePix = "123e4567-e89b-12d3-a456-426614174000"; // Substitua pela sua chave real
+  const chavePix = "25.401.842/0001-86"; // Substitua pela sua chave real
   const navigate = useNavigate();
 
   return (

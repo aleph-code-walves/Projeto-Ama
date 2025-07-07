@@ -29,6 +29,7 @@ function Header() {
       <nav className="hidden md:flex items-center gap-10 font-medium tracking-wide">
         {[
           { name: 'Sobre a AMA', to: 'sobre' },
+          { name: 'Nossa História', to: 'nossahistoria' },
           { name: 'Projetos', to: 'projetos' },
           { name: 'Impacto na Sociedade', to: 'impacto' },
           { name: 'Nosso Espaço', to: 'espaco' },
