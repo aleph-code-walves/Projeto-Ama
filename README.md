@@ -1,6 +1,6 @@
-# 🌐 AMA Navegantes - Website Oficial
+# 🌐 AMA Navegantes - Website
 
-Este é o repositório do site institucional da **AMA Navegantes**, desenvolvido com **React.js + Vite**, utilizando **Tailwind CSS** para os estilos. O site tem como objetivo promover inclusão, apoio e visibilidade ao trabalho da associação.
+Repositório do site institucional da **AMA Navegantes**, desenvolvido com **React.js + Vite**, utilizando **Tailwind CSS** para os estilos. O site tem como objetivo promover inclusão, apoio e visibilidade ao trabalho da associação.
 
 ---
 
