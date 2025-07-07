@@ -32,4 +32,5 @@ O projeto utiliza as seguintes bibliotecas:
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+cd projeto
+cd npm run dev
