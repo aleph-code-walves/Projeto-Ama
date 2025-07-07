@@ -33,7 +33,7 @@ export default function Doacao() {
         {/* Espaço reservado para a logo */}
         <div className="mt-10 flex justify-center">
           <img
-            src="/img/logoPrimeiraVF.png" // ajuste o caminho se necessário
+            src="/img/LogoAma.png" // ajuste o caminho se necessário
             alt="Logo AMA"
             className="h-20 md:h-24 object-contain"
           />
