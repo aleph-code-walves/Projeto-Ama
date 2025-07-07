@@ -1,5 +1,6 @@
 import React from 'react';
 import './HeroSection.css'; 
+import { FaChevronDown } from 'react-icons/fa';
 
 function HeroSection() {
   return (
@@ -19,9 +20,10 @@ function HeroSection() {
         <p className="text-lg lg:text-xl mb-10 max-w-3xl mx-auto">
           Uma Entidade Filantrópica sem fins lucrativos, fundada em 15 de junho de 2016. Nossa diretoria é composta exclusivamente por pais e mães de pessoas com autismo.
         </p>
-        <button className="bg-blue-600 text-white px-10 py-4 rounded-full text-lg lg:text-xl hover:bg-blue-700 transition duration-300 shadow-lg">
-          Conheça nosso trabalho
-        </button>
+      {/* Seta animada */}
+        <a href="sobre" className="inline-block animate-bounce text-white">
+          <FaChevronDown size={32} />
+        </a>
       </div>
     </section>
   );
