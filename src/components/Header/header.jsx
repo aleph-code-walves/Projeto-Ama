@@ -18,12 +18,11 @@ function Header() {
         duration={500}
         className="cursor-pointer flex items-center gap-3 cursor-pointer"
       >
-      <img
-        src="../img/LogoAma_Branca.png"
-        alt="Logo AMA"
-        className="h-20 md:h-24 object-contain max-w-[200px]"
-      />
-      </Link>
+<img
+  src="../img/LogoAma_Branca.png"
+  alt="Logo AMA"
+  className="h-auto max-h-16 md:max-h-20 object-contain"
+/>      </Link>
   
       {/* Navegação Desktop */}
       <nav className="hidden md:flex items-center gap-10 font-medium tracking-wide">
