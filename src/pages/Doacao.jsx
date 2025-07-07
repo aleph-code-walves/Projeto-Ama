@@ -49,7 +49,7 @@ export default function Doacao() {
       >
         <FaInstagram size={24} />
         <a
-          href="https://www.instagram.com/ama_navegantes" // atualize com o link real
+          href="https://www.instagram.com/amanavegantes/" // atualize com o link real
           target="_blank"
           rel="noopener noreferrer"
           className="font-medium underline"
